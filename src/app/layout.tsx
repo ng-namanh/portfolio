@@ -24,11 +24,11 @@ export default function RootLayout({
     <html lang='en'>
       <body
         className={cn(
-          `bg-[#020817] flex min-h-screen flex-col items-center justify-between p-4 max-w-[1280px] mx-auto my-0 ${inter.className}`
+          `bg-[#020817] transition-all duration-300 flex min-h-screen flex-col items-center justify-between p-4 md:max-w-[1280px] mx-auto my-0 ${inter.className}`
         )}
       >
         <Header />
-        <div className='flex-1'>{children}</div>
+        <div className='flex-1 w-full'>{children}</div>
         <Footer />
       </body>
     </html>
