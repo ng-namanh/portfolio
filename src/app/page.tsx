@@ -12,7 +12,7 @@ export default function Home() {
           I&apos;m <span className='gradient-text'>Nam Anh</span>
         </h2>
         <p className='font-bold text-14 md:text-20 text-accent mx-4 my-4 '>
-          Frontend Developer | DevOps Enthusias | Full-stack JS
+          Frontend Developer | Full-stack JS | DevOps Enthusias
         </p>
         <Avatar className='md:h-[120px] md:w-[120px] h-24 w-24 md:absolute md:top-0 md:right-16'>
           <AvatarImage src='https://github.com/shadcn.png' />

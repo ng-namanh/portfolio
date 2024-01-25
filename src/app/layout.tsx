@@ -29,7 +29,7 @@ export default function RootLayout({
       >
         <Header />
         <div className='flex-1 w-full'>{children}</div>
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   )

@@ -16,8 +16,11 @@ function About() {
           height={180}
           className='border-2 border-primary rounded-full'
         />
-        <Tabs defaultValue='story' className='h-[264px] '>
-          <TabsList className='bg-primary rounded-md'>
+        <Tabs
+          defaultValue='story'
+          className='md:h-[264px] h-[400px] flex flex-col md:block '
+        >
+          <TabsList className='md:bg-primary bg-transparent rounded-md'>
             <TabsTrigger
               value='story'
               className='bg-primary text-white rounded-lg'
@@ -48,8 +51,8 @@ function About() {
               everywhere and enjoy.
             </p>
           </TabsContent>
-          <TabsContent value='skill'>
-            <ul className='text-14 font-semibold text-center md:text-start md:text-16 text-accent flex flex-col mt-4 gap-2'>
+          <TabsContent value='skill' className='h-[400px]'>
+            <ul className='h-full text-14 font-semibold text-start md:text-16 text-accent flex flex-col mt-4 gap-2'>
               <li>
                 <span className='gradient-text'>Language</span> : Javascript
               </li>
