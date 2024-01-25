@@ -25,13 +25,13 @@ function About() {
               value='story'
               className='bg-primary text-white rounded-lg'
             >
-              My short story
+              Story
             </TabsTrigger>
             <TabsTrigger
               value='skill'
               className='bg-primary text-white rounded-lg'
             >
-              My tech skills
+              Skills
             </TabsTrigger>
           </TabsList>
           <TabsContent value='story'>
