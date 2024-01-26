@@ -1,4 +1,5 @@
 import About from '@/components/about'
+import Experience from '@/components/experience'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
@@ -12,7 +13,7 @@ export default function Home() {
           I&apos;m <span className='gradient-text'>Nam Anh</span>
         </h2>
         <p className='font-bold text-14 md:text-20 text-accent mx-4 my-4 '>
-          Frontend Developer | Full-stack JS | DevOps Enthusias
+          Frontend Developer | Full-stack JS | DevOps Enthusiast
         </p>
         <Avatar className='md:h-[120px] md:w-[120px] h-24 w-24 md:absolute md:top-0 md:right-16'>
           <AvatarImage src='https://github.com/shadcn.png' />
@@ -28,6 +29,7 @@ export default function Home() {
         </Link>
       </section>
       <About />
+      <Experience />
     </>
   )
 }
