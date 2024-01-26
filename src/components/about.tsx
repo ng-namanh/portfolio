@@ -84,7 +84,7 @@ function AboutContent() {
 
 function About() {
   return (
-    <SectionWrapper title='About Me'>
+    <SectionWrapper title='About Me' id='about'>
       <AboutContent />
     </SectionWrapper>
   )

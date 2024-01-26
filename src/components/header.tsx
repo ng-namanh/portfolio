@@ -3,7 +3,7 @@ import Link from 'next/link'
 function Header() {
   return (
     <div className='w-full bg-white/10 rounded-md text-accent py-4 font-bold transition-all'>
-      <ul className='flex justify-evenly md:text-2xl text-14'>
+      <ul className='flex justify-evenly md:text-2xl text-14 w-4/5 mx-auto my-0'>
         <li>
           <Link
             href='/'
@@ -14,7 +14,7 @@ function Header() {
         </li>
         <li>
           <Link
-            href='/'
+            href='#about'
             className='hover:gradient-text bg-clip-text bg-gradient-to-r from-primary to-white transition duration-300'
           >
             About
@@ -22,7 +22,7 @@ function Header() {
         </li>
         <li>
           <Link
-            href='/'
+            href='#experience'
             className='hover:gradient-text bg-clip-text bg-gradient-to-r from-primary to-white transition duration-300'
           >
             Experience
