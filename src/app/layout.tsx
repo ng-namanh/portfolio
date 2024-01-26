@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang='en'>
       <body
         className={cn(
-          `bg-[#020817] scroll-smooth transition-all duration-300 flex min-h-screen flex-col items-center justify-between p-4 md:max-w-[1280px] mx-auto my-0 ${inter.className}`
+          `bg-[#020817] scroll-sm transition-all duration-300 flex min-h-screen flex-col items-center justify-between p-4 md:max-w-[1280px] mx-auto my-0 ${inter.className}`
         )}
       >
         <Header />

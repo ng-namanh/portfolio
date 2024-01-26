@@ -1,4 +1,5 @@
 import About from '@/components/about'
+import Projects from '@/components/project'
 import Experience from '@/components/experience'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Button } from '@/components/ui/button'
@@ -30,6 +31,7 @@ export default function Home() {
       </section>
       <About />
       <Experience />
+      <Projects />
     </>
   )
 }
