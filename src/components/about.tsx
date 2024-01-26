@@ -1,4 +1,3 @@
-import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
 import Image from 'next/image'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs'
 import SectionWrapper from './section-wrapper'
@@ -32,7 +31,7 @@ function AboutContent() {
           </TabsTrigger>
         </TabsList>
         <TabsContent value='story'>
-          <p className='text-14 font-semibold text-center md:text-start md:text-16 text-accent mt-4'>
+          <p className='text-14 font-medium text-center md:text-start md:text-16 text-accent mt-4'>
             I’m currently an 3-year student majoring in Software Engineering who
             started programming back in 2021 and turned it into a hobby.
             <br />
