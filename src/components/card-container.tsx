@@ -1,5 +1,7 @@
 import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card'
 import Image from 'next/image'
+import { TypescriptIcon } from './icons'
+import IconBadge from './icon-badge'
 
 type Props = {
   imageUrl: string
@@ -22,14 +24,20 @@ function Card(props: Props) {
         </CardItem>
         <CardItem
           translateZ='50'
-          className='text-xl font-bold text-neutral-600 dark:text-white mt-4'
+          className='font-semibold text-black dark:text-white mt-4'
+        >
+          <IconBadge icon={<TypescriptIcon />} description='TypeScript' />
+        </CardItem>
+        <CardItem
+          translateZ='50'
+          className='text-xl font-bold text-black dark:text-white mt-4'
         >
           {props.title}
         </CardItem>
         <CardItem
           as='p'
           translateZ='60'
-          className='text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300'
+          className='text-neutral-700 text-sm max-w-sm mt-2 dark:text-neutral-300'
         >
           {props.description}
         </CardItem>
