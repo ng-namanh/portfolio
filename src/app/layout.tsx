@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import './globals.css'
 import { cn } from '@/lib/utils'
-import Header from '@/components/header'
 import Sidebar from '@/components/side-bar'
 
 const inter = Poppins({
