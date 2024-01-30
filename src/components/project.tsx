@@ -1,3 +1,4 @@
+import { projectItems } from '@/lib/constants'
 import Card from './card-container'
 import SectionWrapper from './section-wrapper'
 import React from 'react'
@@ -5,17 +6,17 @@ import React from 'react'
 function Projects() {
   return (
     <SectionWrapper title='Projects' id='project'>
-      <div className='grid grid-cols-2 gap-10 mt-8'>
+      <div className='grid md:grid-cols-2 md:gap-10 gap-4 mt-8 w-full'>
         <Card
-          title='Aerocamp'
-          description='AeroCamp is where people can join and choose favorite campgrounds for their trip, or can add your own campgrounds, write review'
-          imageUrl='project1.png'
+          title={projectItems[0].title}
+          description={projectItems[0].description}
+          imageUrl={projectItems[0].image}
           techstack={['reactjs', 'expressjs', 'mongodb', 'expressjs']}
         />
         <Card
-          title='GDSC HANU Platform'
-          description='This is a demo for description'
-          imageUrl='gdsc_platform.jpg'
+          title={projectItems[1].title}
+          description={projectItems[1].description}
+          imageUrl={projectItems[1].image}
           techstack={['nuxtjs', 'sass', 'typescript']}
         />
       </div>

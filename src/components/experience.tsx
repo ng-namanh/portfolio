@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import SectionWrapper from './section-wrapper'
 
 function Experience() {
@@ -5,29 +6,31 @@ function Experience() {
     <SectionWrapper
       title='Experience'
       id='experience'
-      className='mt-60 md:mt-16 lg:mt-4 '
+      className='mt-36 md:mt-16 lg:mt-4 '
     >
-      <div className='text-start md:w-[70%] mt-8'>
-        <h3 className='text-16 md:text-20 font-semibold text-accent text-start'>
+      <div className='text-start md:w-[85%] mt-8'>
+        <h3 className='text-16 md:text-20 font-semibold'>
           Frontend Lead{' '}
-          <span className='text-primary'>
-            @Google Developer Student Clubs (HANU)
-          </span>
+          <Link href='https://www.facebook.com/gdschanu'>
+            <span className='text-blue-500 text-light'>
+              @Google Developer Student Clubs (HANU)
+            </span>
+          </Link>
         </h3>
         <p className='text-white/70 text-12 font-light'>Dec 2022 - Present</p>
         <div className='text-14 md:text-16 '>
           <p className='text-accent mt-4 flex'>
-            🧡 Developed a GDSC Platform for HR Management and Admin specially
+            🖤 Developed a GDSC Platform for HR Management and Admin specially
             in member management and recruitment, where I worked on the Frontend
             team with 5 members
           </p>
           <p className='text-accent my-4'>
-            🧡 We implement the architecture on Frontend following Separation of
+            🖤 We implement the architecture on Frontend following Separation of
             Concerns pattern and Component-based. Mostly working with Nuxt3 and
             Vuetify
           </p>
           <p className='text-accent '>
-            🧡 Host technical workshops, techtalk and meetups. Connect, grow and
+            🖤 Host technical workshops, techtalk and meetups. Connect, grow and
             learn with other students for building a meaningful community in our
             University.
           </p>

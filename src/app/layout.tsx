@@ -3,7 +3,7 @@ import { Poppins } from 'next/font/google'
 import './globals.css'
 import { cn } from '@/lib/utils'
 import Header from '@/components/header'
-// import Footer from '@/components/footer'
+import Sidebar from '@/components/side-bar'
 
 const inter = Poppins({
   subsets: ['latin'],
@@ -24,12 +24,14 @@ export default function RootLayout({
     <html lang='en'>
       <body
         className={cn(
-          `bg-[#020817] scroll-sm transition-all duration-300 flex min-h-screen flex-col items-center justify-between p-4 md:max-w-[1280px] mx-auto my-0 ${inter.className}`
+          `bg-white scroll-sm transition-all duration-300 flex min-h-screen flex-row flex-wrap py-4 justify-between p-4 md:max-w-[1280px] mx-auto my-0 ${inter.className}`
         )}
       >
-        <Header />
-        <div className='flex-1 w-full'>{children}</div>
-        {/* <Footer /> */}
+        <Sidebar />
+        <main className='w-full px-2 pt-1 sm:w-2/3 md:w-3/4'>
+          {/* <Header /> */}
+          <div className='flex-1 w-full'>{children}</div>
+        </main>
       </body>
     </html>
   )
