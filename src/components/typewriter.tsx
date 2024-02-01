@@ -10,7 +10,11 @@ export function TypeWriterEffectName() {
       text: "I'm"
     },
     {
-      text: 'namanh.',
+      text: 'namanh',
+      className: 'text-blue-500 dark:text-blue-500'
+    },
+    {
+      text: '👋.',
       className: 'text-blue-500 dark:text-blue-500'
     }
   ]

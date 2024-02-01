@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 function Projects() {
   return (
-    <SectionWrapper title='Projects' id='project'>
+    <SectionWrapper title='Projects' id='project' className='mb-16'>
       <div className='grid md:grid-cols-2 md:gap-10 gap-4 mt-8 w-full'>
         <Link
           href='https://github.com/ng-namanh/aerocamp'
