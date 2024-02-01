@@ -16,7 +16,6 @@ export default function Home() {
         <p className='font-bold text-14 md:text-20 text-accent mx-4 mb-4 '>
           Frontend Developer | Full-stack JS | DevOps Enthusiast
         </p>
-        {/* <TypeWriterEffectJob /> */}
         <Link
           href='https://drive.google.com/file/d/1jSXxMmF0SDBTSBQDeS-pHY3HT2GYe9MZ/view?usp=sharing'
           target='_blank'
