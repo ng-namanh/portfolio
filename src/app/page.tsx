@@ -17,7 +17,7 @@ export default function Home() {
           Frontend Developer | Full-stack JS | DevOps Enthusiast
         </p>
         <Link
-          href='https://drive.google.com/file/d/1jSXxMmF0SDBTSBQDeS-pHY3HT2GYe9MZ/view?usp=sharing'
+          href='https://drive.google.com/file/d/1KwIKmSiAjslsUbTxLmWDJtDj_hExyQ5n/view?usp=sharing'
           target='_blank'
         >
           <Button className='px-4 py-6 hover:bg-primary/70 mt-4'>
